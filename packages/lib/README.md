@@ -6,19 +6,19 @@ This package contains the core functionalities of [Enclosed](https://enclosed.cc
 
 ```bash
 # with npm
-npm install @enclosed/lib
+npm install @senclosed/lib
 
 # with yarn
-yarn add @enclosed/lib
+yarn add @senclosed/lib
 
 # with pnpm
-pnpm add @enclosed/lib
+pnpm add @senclosed/lib
 ```
 
 ## Usage
 
 ```javascript
-import { createNote } from '@enclosed/lib';
+import { createNote } from '@senclosed/lib';
 
 const { noteUrl } = await createNote({
   content: 'Hello, World!',

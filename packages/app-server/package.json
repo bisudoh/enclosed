@@ -1,5 +1,5 @@
 {
-  "name": "@enclosed/app-server",
+  "name": "@senclosed/app-server",
   "type": "module",
   "version": "1.16.0",
   "packageManager": "pnpm@9.15.0",
@@ -29,8 +29,8 @@
   },
   "dependencies": {
     "@corentinth/chisels": "catalog:",
-    "@enclosed/lib": "workspace:*",
     "@hono/node-server": "^1.12.1",
+    "@senclosed/lib": "workspace:*",
     "bcryptjs": "^2.4.3",
     "date-fns": "^4.0.0",
     "figue": "^2.1.0",
