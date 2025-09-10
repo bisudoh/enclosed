@@ -4,6 +4,7 @@ name: CD - Preview Build
 on:
     pull_request:
       types: [opened, synchronize]
+    workflow_dispatch:
 
 jobs:
   build-app-preview:
