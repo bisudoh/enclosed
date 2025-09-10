@@ -41,7 +41,7 @@ importers:
       '@corentinth/chisels':
         specifier: 'catalog:'
         version: 1.2.1
-      '@senclosed/lib':
+      '@sudohash/lib':
         specifier: workspace:*
         version: link:../lib
       '@kobalte/core':
@@ -132,7 +132,7 @@ importers:
       '@corentinth/chisels':
         specifier: 'catalog:'
         version: 1.2.1
-      '@senclosed/lib':
+      '@sudohash/lib':
         specifier: workspace:*
         version: link:../lib
       '@hono/node-server':
@@ -220,7 +220,7 @@ importers:
 
   packages/cli:
     dependencies:
-      '@senclosed/lib':
+      '@sudohash/lib':
         specifier: workspace:*
         version: link:../lib
       '@inquirer/prompts':
@@ -348,7 +348,7 @@ importers:
       '@corentinth/chisels':
         specifier: 'catalog:'
         version: 1.2.1
-      '@senclosed/crypto':
+      '@sudohash/crypto':
         specifier: workspace:*
         version: link:../crypto
       cbor-x:

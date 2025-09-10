@@ -1,4 +1,4 @@
-import { encryptionAlgorithms } from '@senclosed/crypto';
+import { encryptionAlgorithms } from '@sudohash/crypto';
 import { isApiClientErrorWithCode, isApiClientErrorWithStatusCode } from './api/api.models';
 import { decryptNote, encryptNote } from './crypto/crypto.usecases';
 import { serializationFormats } from './crypto/serialization/serialization.registry';

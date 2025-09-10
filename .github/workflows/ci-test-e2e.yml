@@ -36,8 +36,8 @@ jobs:
       
     - name: Build iso-prod app
       run: |
-        pnpm -F @senclosed/app-client build
-        pnpm -F @senclosed/app-server build:node
+        pnpm -F @sudohash/app-client build
+        pnpm -F @sudohash/app-server build:node
         mkdir dist-app
         cp -r dist dist-app/public
         cp -r ../app-server/dist-node/index.cjs dist-app/index.cjs

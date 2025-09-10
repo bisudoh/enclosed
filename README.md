@@ -18,7 +18,7 @@
   <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
   <a href="https://docs.enclosed.cc">Docs</a>
   <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-  <a href="https://www.npmjs.com/package/@senclosed/cli">CLI</a>
+  <a href="https://www.npmjs.com/package/@sudohash/cli">CLI</a>
   <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
   <a href="https://docs.enclosed.cc/self-hosting/docker">Self-hosting</a>
 </p>
@@ -98,13 +98,13 @@ The Enclosed CLI allows you to create notes from the terminal. You can install i
 
 ```bash
 # with npm
-npm install -g @senclosed/cli
+npm install -g @sudohash/cli
 
 # with yarn
-yarn global add @senclosed/cli
+yarn global add @sudohash/cli
 
 # with pnpm
-pnpm add -g @senclosed/cli
+pnpm add -g @sudohash/cli
 ```
 
 ### Create a note

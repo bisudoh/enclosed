@@ -1,5 +1,5 @@
 {
-  "name": "@senclosed/app-client",
+  "name": "@sudohash/app-client",
   "type": "module",
   "version": "1.0.0",
   "packageManager": "pnpm@9.15.0",
@@ -30,7 +30,7 @@
   "dependencies": {
     "@corentinth/chisels": "catalog:",
     "@kobalte/core": "^0.13.4",
-    "@senclosed/lib": "workspace:*",
+    "@sudohash/lib": "workspace:*",
     "@solid-primitives/i18n": "^2.1.1",
     "@solid-primitives/storage": "^4.2.1",
     "@solidjs/router": "^0.14.3",

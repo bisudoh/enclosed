@@ -1,6 +1,6 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import { fileToNoteAsset } from '@senclosed/lib';
+import { fileToNoteAsset } from '@sudohash/lib';
 
 export async function checkFileExist({ filePath }: { filePath: string }): Promise<boolean> {
   try {

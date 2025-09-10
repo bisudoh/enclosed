@@ -10,10 +10,10 @@ log() {
 }
 
 log "Building the server"
-pnpm --filter @senclosed/app-server --fail-if-no-match build:cloudflare
+pnpm --filter @sudohash/app-server --fail-if-no-match build:cloudflare
 
 log "Building the client"
-pnpm --filter @senclosed/app-client --fail-if-no-match build
+pnpm --filter @sudohash/app-client --fail-if-no-match build
 
 log "Resetting the dist folder"
 rm -rf dist

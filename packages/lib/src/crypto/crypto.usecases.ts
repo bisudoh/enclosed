@@ -1,7 +1,7 @@
 import type { NoteAsset } from '../notes/notes.types';
 import type { EncryptionAlgorithm } from './crypto.types';
 import type { SerializationFormat } from './serialization/serialization.types';
-import { base64UrlToBuffer, bufferToBase64Url, deriveMasterKey, generateBaseKey, getDecryptionMethod, getEncryptionMethod } from '@senclosed/crypto';
+import { base64UrlToBuffer, bufferToBase64Url, deriveMasterKey, generateBaseKey, getDecryptionMethod, getEncryptionMethod } from '@sudohash/crypto';
 import { getParsingMethod, getSerializationMethod } from './serialization/serialization.registry';
 
 export { decryptNote, encryptNote };

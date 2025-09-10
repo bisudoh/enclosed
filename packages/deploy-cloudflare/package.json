@@ -1,5 +1,5 @@
 {
-  "name": "@senclosed/deploy-cloudflare",
+  "name": "@sudohash/deploy-cloudflare",
   "version": "1.0.0",
   "description": "Deploy scripts for Cloudflare Pages",
   "packageManager": "pnpm@9.15.0",

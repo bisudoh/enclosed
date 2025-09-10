@@ -1,4 +1,4 @@
-import { decryptNote, fetchNote, isApiClientErrorWithStatusCode, parseNoteUrl } from '@senclosed/lib';
+import { decryptNote, fetchNote, isApiClientErrorWithStatusCode, parseNoteUrl } from '@sudohash/lib';
 import { defineCommand } from 'citty';
 import picocolors from 'picocolors';
 import { getInstanceUrl } from '../config/config.usecases';

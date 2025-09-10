@@ -1,5 +1,5 @@
 {
-  "name": "@senclosed/app-server",
+  "name": "@sudohash/app-server",
   "type": "module",
   "version": "1.0.0",
   "packageManager": "pnpm@9.15.0",
@@ -30,7 +30,7 @@
   "dependencies": {
     "@corentinth/chisels": "catalog:",
     "@hono/node-server": "^1.12.1",
-    "@senclosed/lib": "workspace:*",
+    "@sudohash/lib": "workspace:*",
     "bcryptjs": "^2.4.3",
     "date-fns": "^4.0.0",
     "figue": "^2.1.0",

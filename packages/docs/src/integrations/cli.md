@@ -9,19 +9,19 @@ You can install the Enclosed CLI globally using npm, yarn, or pnpm.
 ### Using npm
 
 ```bash
-npm install -g @senclosed/cli
+npm install -g @sudohash/cli
 ```
 
 ### Using yarn
 
 ```bash
-yarn global add @senclosed/cli
+yarn global add @sudohash/cli
 ```
 
 ### Using pnpm
 
 ```bash
-pnpm add -g @senclosed/cli
+pnpm add -g @sudohash/cli
 ```
 
 Once installed, you can use the `enclosed` command in your terminal.
@@ -117,19 +117,19 @@ To update the Enclosed CLI to the latest version, simply re-run the installation
 ### Using npm
 
 ```bash
-npm install -g @senclosed/cli
+npm install -g @sudohash/cli
 ```
 
 ### Using yarn
 
 ```bash
-yarn global add @senclosed/cli
+yarn global add @sudohash/cli
 ```
 
 ### Using pnpm
 
 ```bash
-pnpm add -g @senclosed/cli
+pnpm add -g @sudohash/cli
 ```
 
 This will ensure that you have the latest features and security updates.
@@ -141,19 +141,19 @@ If you need to remove the Enclosed CLI, you can uninstall it with the following 
 ### Using npm
 
 ```bash
-npm uninstall -g @senclosed/cli
+npm uninstall -g @sudohash/cli
 ```
 
 ### Using yarn
 
 ```bash
-yarn global remove @senclosed/cli
+yarn global remove @sudohash/cli
 ```
 
 ### Using pnpm
 
 ```bash
-pnpm remove -g @senclosed/cli
+pnpm remove -g @sudohash/cli
 ```
 
 ## Advanced Usage
