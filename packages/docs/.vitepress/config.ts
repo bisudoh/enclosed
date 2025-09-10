@@ -108,12 +108,12 @@ export default defineConfig({
     },
 
     editLink: {
-      pattern: 'https://github.com/CorentinTh/enclosed/edit/main/packages/docs/src/:path',
+      pattern: 'https://github.com/bisudoh/enclosed/edit/main/packages/docs/src/:path',
       text: 'Edit this page on GitHub',
     },
 
     socialLinks: [
-      { icon: { svg: githubIcon }, link: 'https://github.com/CorentinTh/enclosed', ariaLabel: 'GitHub' },
+      { icon: { svg: githubIcon }, link: 'https://github.com/bisudoh/enclosed', ariaLabel: 'GitHub' },
       { icon: { svg: xIcon }, link: 'https://x.com/cthmsst', ariaLabel: 'X' },
     ],
 

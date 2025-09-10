@@ -4,13 +4,13 @@ Welcome to the Enclosed Brand Kit. Here, you'll find resources to help you repre
 
 ## Project Overview
 
-**Enclosed** is a minimalistic, secure web app enabling users to send encrypted notes and files with end-to-end security. The platform prioritizes user privacy by ensuring that servers have zero knowledge of the contents shared. For a complete overview of features, see the [README](https://github.com/CorentinTh/enclosed).
+**Enclosed** is a minimalistic, secure web app enabling users to send encrypted notes and files with end-to-end security. The platform prioritizes user privacy by ensuring that servers have zero knowledge of the contents shared. For a complete overview of features, see the [README](https://github.com/bisudoh/enclosed).
 
 ### Quick Links
 
 - **Website**: [enclosed.cc](https://enclosed.cc)
 - **Documentation**: [docs.enclosed.cc](https://docs.enclosed.cc)
-- **GitHub Repository**: [github.com/CorentinTh/enclosed](https://github.com/CorentinTh/enclosed)
+- **GitHub Repository**: [github.com/CorentinTh/enclosed](https://github.com/bisudoh/enclosed)
 - **Live instance**: [Try it here](https://enclosed.cc)
 
 ## Logo Assets
@@ -62,4 +62,4 @@ You can use this banner to promote Enclosed on social media platforms.
 
 For media inquiries, please reach out to the project creator [Corentin Thomasset](https://corentin.tech).
 
-If you have any specific branding requests or require additional assets, please open an issue on our [GitHub repository](https://github.com/CorentinTh/enclosed).
+If you have any specific branding requests or require additional assets, please open an issue on our [GitHub repository](https://github.com/bisudoh/enclosed).

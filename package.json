@@ -4,10 +4,10 @@
   "description": "Send private and secure note",
   "packageManager": "pnpm@9.15.0",
   "license": "Apache-2.0",
-  "author": "Corentin Thomasset <corentinth@proton.me> (https://corentin.tech)",
+  "author": "Corentin Thomasset <siba.santosh@sudohash.in> (https://corentin.tech)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/CorentinTh/enclosed"
+    "url": "https://github.com/bisudoh/enclosed"
   },
   "engines": {
     "node": ">=22.0.0"

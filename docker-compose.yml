@@ -1,6 +1,6 @@
 services:
   enclosed:
-    image: corentinth/enclosed
+    image: sudohash/enclosed
     ports:
       - 8787:8787
     volumes:

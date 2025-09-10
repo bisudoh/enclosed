@@ -179,10 +179,10 @@ jobs:
           platforms: linux/amd64,linux/arm64,linux/arm/v7
           push: true
           tags: |
-            corentinth/enclosed:latest
-            corentinth/enclosed:${{ env.RELEASE_VERSION }}
-            ghcr.io/corentinth/enclosed:latest
-            ghcr.io/corentinth/enclosed:${{ env.RELEASE_VERSION}}
+            sudohash/enclosed:latest
+            sudohash/enclosed:${{ env.RELEASE_VERSION }}
+            ghcr.io/sudohash/enclosed:latest
+            ghcr.io/sudohash/enclosed:${{ env.RELEASE_VERSION}}
 
       - name: Build and push rootless Docker image
         uses: docker/build-push-action@v6
@@ -192,7 +192,7 @@ jobs:
           platforms: linux/amd64,linux/arm64,linux/arm/v7
           push: true
           tags: |
-            corentinth/enclosed:latest-rootless
-            corentinth/enclosed:${{ env.RELEASE_VERSION }}-rootless
-            ghcr.io/corentinth/enclosed:latest-rootless
-            ghcr.io/corentinth/enclosed:${{ env.RELEASE_VERSION }}-rootless
+            sudohash/enclosed:latest-rootless
+            sudohash/enclosed:${{ env.RELEASE_VERSION }}-rootless
+            ghcr.io/sudohash/enclosed:latest-rootless
+            ghcr.io/sudohash/enclosed:${{ env.RELEASE_VERSION }}-rootless

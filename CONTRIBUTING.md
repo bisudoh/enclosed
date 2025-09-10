@@ -4,13 +4,13 @@ First off, thanks for taking the time to contribute to Enclosed! We welcome cont
 
 ## Code of Conduct
 
-This project adheres to the [Contributor Covenant](https://www.contributor-covenant.org/). By participating, you are expected to uphold this code. Please report unacceptable behavior to <corentinth@proton.me>
+This project adheres to the [Contributor Covenant](https://www.contributor-covenant.org/). By participating, you are expected to uphold this code. Please report unacceptable behavior to <siba.santosh@sudohash.in>
 
 ## How Can I Contribute?
 
 ### Reporting Issues
 
-If you find a bug, have a feature request, or need help, feel free to open an issue in the [GitHub Issue Tracker](https://github.com/CorentinTh/enclosed/issues). You're also welcome to comment on existing issues.
+If you find a bug, have a feature request, or need help, feel free to open an issue in the [GitHub Issue Tracker](https://github.com/bisudoh/enclosed/issues). You're also welcome to comment on existing issues.
 
 ### Submitting Pull Requests
 
@@ -52,7 +52,7 @@ We recommend running the app locally for development. Follow these steps:
 1. Clone the repository and navigate inside the project directory.
 
    ```bash
-   git clone https://github.com/CorentinTh/enclosed.git
+   git clone https://github.com/bisudoh/enclosed.git
    cd enclosed
    ```
 

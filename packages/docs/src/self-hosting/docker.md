@@ -27,11 +27,11 @@ To run Enclosed using Docker, you can use the following command:
 ::: code-group
 
 ```bash [From Docker Hub]
-docker run -d --name enclosed --restart unless-stopped -p 8787:8787 corentinth/enclosed
+docker run -d --name enclosed --restart unless-stopped -p 8787:8787 sudohash/enclosed
 ```
 
 ```bash [From GHCR]
-docker run -d --name enclosed --restart unless-stopped -p 8787:8787 ghcr.io/corentinth/enclosed
+docker run -d --name enclosed --restart unless-stopped -p 8787:8787 ghcr.io/sudohash/enclosed
 ```
 :::
 
@@ -43,7 +43,7 @@ This command will download the Enclosed image and start the application, making 
 - `--name enclosed`: Names the container "enclosed" for easy identification.
 - `--restart unless-stopped`: Configures the container to always restart unless it is explicitly stopped.
 - `-p 8787:8787`: Maps port 8787 on your host to port 8787 in the container, making the application accessible on your local machine.
-- `corentinth/enclosed` or `ghcr.io/corentinth/enclosed`: Specifies the Docker image to use.
+- `sudohash/enclosed` or `ghcr.io/sudohash/enclosed`: Specifies the Docker image to use.
 
 ## Docker with Volume Persistence
 
@@ -51,11 +51,11 @@ To ensure that your notes and settings are preserved even if the container is st
 
 ::: code-group
 ```bash [From Docker Hub]
-docker run -d --name enclosed --restart unless-stopped -p 8787:8787 -v /path/to/local/data:/app/.data corentinth/enclosed
+docker run -d --name enclosed --restart unless-stopped -p 8787:8787 -v /path/to/local/data:/app/.data sudohash/enclosed
 ```
 
 ```bash [From GHCR]
-docker run -d --name enclosed --restart unless-stopped -p 8787:8787 -v /path/to/local/data:/app/.data ghcr.io/corentinth/enclosed
+docker run -d --name enclosed --restart unless-stopped -p 8787:8787 -v /path/to/local/data:/app/.data ghcr.io/sudohash/enclosed
 ```
 :::
 
@@ -63,11 +63,11 @@ For the rootless image, you can use the following command (specifying the `lates
 
 ::: code-group
 ```bash [From Docker Hub]
-docker run -d --name enclosed --restart unless-stopped -p 8787:8787 -v /path/to/local/data:/app/.data --user $(id -u):$(id -g) corentinth/enclosed:latest-rootless
+docker run -d --name enclosed --restart unless-stopped -p 8787:8787 -v /path/to/local/data:/app/.data --user $(id -u):$(id -g) sudohash/enclosed:latest-rootless
 ```
 
 ```bash [From GHCR]
-docker run -d --name enclosed --restart unless-stopped -p 8787:8787 -v /path/to/local/data:/app/.data --user $(id -u):$(id -g) ghcr.io/corentinth/enclosed:latest-rootless
+docker run -d --name enclosed --restart unless-stopped -p 8787:8787 -v /path/to/local/data:/app/.data --user $(id -u):$(id -g) ghcr.io/sudohash/enclosed:latest-rootless
 ```
 :::
 
@@ -114,13 +114,13 @@ docker stop enclosed
 docker rm enclosed
 
 # From Docker Hub
-docker pull corentinth/enclosed
+docker pull sudohash/enclosed
 
 # Or from GitHub Container Registry
-docker pull ghcr.io/corentinth/enclosed
+docker pull ghcr.io/sudohash/enclosed
 
 # Run the container again
-docker run -d --name enclosed --restart unless-stopped -p 8787:8787 -v /path/to/local/data:/app/.data --user $(id -u):$(id -g) corentinth/enclosed
+docker run -d --name enclosed --restart unless-stopped -p 8787:8787 -v /path/to/local/data:/app/.data --user $(id -u):$(id -g) sudohash/enclosed
 ```
 
 This will ensure that you are using the latest version of Enclosed with all your previous data intact.

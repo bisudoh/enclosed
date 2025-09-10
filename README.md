@@ -150,7 +150,7 @@ This project is organized as a monorepo using `pnpm` workspaces. The structure i
 ## Contributing
 
 Contributions are welcome! Please refer to the [`CONTRIBUTING.md`](./CONTRIBUTING.md) file for guidelines on how to get started, report issues, and submit pull requests.
-You can find easy-to-pick-up tasks with the [`good first issue` label](https://github.com/CorentinTh/enclosed/issues?q=sort%3Aupdated-desc+is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22).
+You can find easy-to-pick-up tasks with the [`good first issue` label](https://github.com/bisudoh/enclosed/issues?q=sort%3Aupdated-desc+is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22).
 
 ## License
 
@@ -163,7 +163,7 @@ If you find this project helpful, please consider [supporting my work](https://b
 
 Thank you to all the contributors who have helped make Enclosed better!
 
-[![Contributors](https://contrib.rocks/image?repo=CorentinTh/enclosed)](https://github.com/CorentinTh/enclosed/graphs/contributors)
+[![Contributors](https://contrib.rocks/image?repo=CorentinTh/enclosed)](https://github.com/bisudoh/enclosed/graphs/contributors)
 
 ### Stack
 
