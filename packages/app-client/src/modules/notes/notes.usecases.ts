@@ -1,4 +1,4 @@
-import { createNote, filesToNoteAssets } from '@enclosed/lib';
+import { createNote, filesToNoteAssets } from '@senclosed/lib';
 import { storeNote } from './notes.services';
 
 export { encryptAndCreateNote };

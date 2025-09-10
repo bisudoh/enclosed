@@ -36,7 +36,7 @@ permissions:
 
 jobs:
   publish-crypto:
-    name: Publish @enclosed/crypto to npm
+    name: Publish @senclosed/crypto to npm
     if: ${{ github.event.inputs.publish_lib || github.event_name == 'push' }}
     runs-on: ubuntu-latest
     permissions:
@@ -62,7 +62,7 @@ jobs:
         run: pnpm i
         working-directory: ./
 
-      - name: Publish @enclosed/crypto to npm
+      - name: Publish @senclosed/crypto to npm
         run: pnpm publish --access public --no-git-checks
         env:
           NPM_CONFIG_PROVENANCE: true
@@ -70,7 +70,7 @@ jobs:
 
 
   publish-lib:
-    name: Publish @enclosed/lib to npm
+    name: Publish @senclosed/lib to npm
     if: ${{ github.event.inputs.publish_lib || github.event_name == 'push' }}
     runs-on: ubuntu-latest
     permissions:
@@ -96,14 +96,14 @@ jobs:
         run: pnpm i
         working-directory: ./
 
-      - name: Publish  @enclosed/lib to npm
+      - name: Publish  @senclosed/lib to npm
         run: pnpm publish --access public --no-git-checks
         env:
           NPM_CONFIG_PROVENANCE: true
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
   publish-cli:
-    name: Publish @enclosed/cli to npm
+    name: Publish @senclosed/cli to npm
     if: ${{ github.event.inputs.publish_cli || github.event_name == 'push' }}
     runs-on: ubuntu-latest
     permissions:
@@ -129,7 +129,7 @@ jobs:
         run: pnpm i
         working-directory: ./
 
-      - name: Publish @enclosed/lib to npm
+      - name: Publish @senclosed/lib to npm
         run: pnpm publish --access public --no-git-checks
         env:
           NPM_CONFIG_PROVENANCE: true

@@ -9,19 +9,19 @@ You can install the Enclosed CLI globally using npm, yarn, or pnpm.
 ### Using npm
 
 ```bash
-npm install -g @enclosed/cli
+npm install -g @senclosed/cli
 ```
 
 ### Using yarn
 
 ```bash
-yarn global add @enclosed/cli
+yarn global add @senclosed/cli
 ```
 
 ### Using pnpm
 
 ```bash
-pnpm add -g @enclosed/cli
+pnpm add -g @senclosed/cli
 ```
 
 Once installed, you can use the `enclosed` command in your terminal.
@@ -117,19 +117,19 @@ To update the Enclosed CLI to the latest version, simply re-run the installation
 ### Using npm
 
 ```bash
-npm install -g @enclosed/cli
+npm install -g @senclosed/cli
 ```
 
 ### Using yarn
 
 ```bash
-yarn global add @enclosed/cli
+yarn global add @senclosed/cli
 ```
 
 ### Using pnpm
 
 ```bash
-pnpm add -g @enclosed/cli
+pnpm add -g @senclosed/cli
 ```
 
 This will ensure that you have the latest features and security updates.
@@ -141,19 +141,19 @@ If you need to remove the Enclosed CLI, you can uninstall it with the following 
 ### Using npm
 
 ```bash
-npm uninstall -g @enclosed/cli
+npm uninstall -g @senclosed/cli
 ```
 
 ### Using yarn
 
 ```bash
-yarn global remove @enclosed/cli
+yarn global remove @senclosed/cli
 ```
 
 ### Using pnpm
 
 ```bash
-pnpm remove -g @enclosed/cli
+pnpm remove -g @senclosed/cli
 ```
 
 ## Advanced Usage
