@@ -1,7 +1,7 @@
 {
   "name": "@senclosed/app-client",
   "type": "module",
-  "version": "1.16.0",
+  "version": "1.0.0",
   "packageManager": "pnpm@9.15.0",
   "description": "Enclosed frontend client",
   "author": "Corentin Thomasset <siba.santosh@sudohash.in> (https://corentin.tech)",

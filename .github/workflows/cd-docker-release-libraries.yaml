@@ -24,12 +24,6 @@ on:
         type: boolean
         default: true
 
-      release_docker:
-        description: 'Release Docker images'
-        required: true
-        type: boolean
-        default: true
-
 permissions:
   contents: read
   packages: write
