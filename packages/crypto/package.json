@@ -1,5 +1,5 @@
 {
-  "name": "@senclosed/crypto",
+  "name": "@enclosed/crypto",
   "type": "module",
   "version": "1.16.0",
   "packageManager": "pnpm@9.15.0",

@@ -1,5 +1,5 @@
 {
-  "name": "@senclosed/cli",
+  "name": "@enclosed/cli",
   "type": "module",
   "version": "1.16.0",
   "packageManager": "pnpm@9.15.0",
@@ -33,7 +33,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@senclosed/lib": "workspace:*",
+    "@enclosed/lib": "workspace:*",
     "@inquirer/prompts": "^6.0.0",
     "citty": "^0.1.6",
     "conf": "^13.0.1",

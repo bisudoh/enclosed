@@ -6,13 +6,13 @@ This package contains the natives crypto primitives used by the [Enclosed lib an
 
 ```bash
 # with npm
-npm install @senclosed/crypto
+npm install @enclosed/crypto
 
 # with yarn
-yarn add @senclosed/crypto
+yarn add @enclosed/crypto
 
 # with pnpm
-pnpm add @senclosed/crypto
+pnpm add @enclosed/crypto
 ```
 
 ## License
