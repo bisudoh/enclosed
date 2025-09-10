@@ -35,7 +35,7 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          githubToken: ${{ secrets.GITHUB_TOKEN }}
+          githubToken: ${{ secrets.GHCRIO_TOKEN }}
           projectName: enclosed
           workingDirectory: packages/deploy-cloudflare
           directory: dist
@@ -75,7 +75,7 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          githubToken: ${{ secrets.GITHUB_TOKEN }}
+          githubToken: ${{ secrets.GHCRIO_TOKEN }}
           projectName: enclosed-docs
           workingDirectory: packages/docs
           directory: dist
