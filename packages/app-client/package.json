@@ -30,10 +30,10 @@
   "dependencies": {
     "@corentinth/chisels": "catalog:",
     "@kobalte/core": "^0.13.4",
-    "@sudohash/lib": "workspace:*",
     "@solid-primitives/i18n": "^2.1.1",
     "@solid-primitives/storage": "^4.2.1",
     "@solidjs/router": "^0.14.3",
+    "@sudohash/lib": "workspace:*",
     "@unocss/reset": "^0.64.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
